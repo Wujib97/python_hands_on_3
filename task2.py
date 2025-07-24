@@ -10,3 +10,21 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 
 → Modify the list and display the required results.
 """
+
+#task 2 solution
+genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary", "Fantasy"]
+genres.append("Drama")
+genres.pop()
+print(len(genres))
+c = genres[1]
+d = genres[-2]
+print(c + d)
+print(genres)
+
+
+
+
+
+
+
+
