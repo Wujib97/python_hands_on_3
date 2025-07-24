@@ -14,17 +14,17 @@ meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 #task solution
 meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 print(meals)
-meals.insert = (4, "Miyan Taushe")
+meals.insert(4, "Miyan Taushe")
 print(meals)
-meals.remove = ("Kunu")
+meals.remove("Kunu")
 print(meals)
-meals.append = ("Fura da Nono")
+meals.remove("Fura da Nono")
+meals.append("Fura da Nono")
 print(meals)
-mealls = (len(meals) - 1
-mealls
-meals = ["Gwote","Fura da Nono","Kunu", "Masa", "Miyan Kuka", "Miyan Taushen",","]
-
-
+mealls = (len(meals) //2)
+print(mealls)
+sorted(meals)
+print(meals)
 
 
 
