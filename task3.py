@@ -13,7 +13,7 @@ money = [1000, 1200, 800, 1500, 1100]
 #task 4
 money = [1000, 1200, 800, 1500, 1100]
 print(sum(money))
-money.insert(2, "100")
+money[2] = "100"
 print(money[::-1])
 
 
